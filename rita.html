@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLORAL BLISS</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #ffd6e1;
+            color: #333;
+            text-align: center;
+            padding: 3em;
+            position: relative;
+        }
+
+        h1 {
+            font-family: 'Pacifico', cursive;
+            font-size: 48px;
+            margin-bottom: 0.5em;
+        }
+
+        .search-tab {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            display: flex;
+        }
+
+        .search-tab input {
+            padding: 0.5em;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-right: 0.5em;
+        }
+
+        .search-tab button {
+            padding: 0.5em 1em;
+            font-size: 16px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        nav {
+            background-color: #ffa3b5;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        nav a {
+            color: #333;
+            text-decoration: none;
+            padding: 1em;
+            margin: 0 1em;
+            font-weight: bold;
+        }
+
+        main {
+            padding: 2em;
+            position: relative;
+        }
+
+        footer {
+            background-color: #ffa3b5;
+            color: black;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .large-text {
+            font-size: 65px;
+            color: #333;
+        }
+
+        .flower-images {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+        }
+
+        .flower-images img {
+            width: 300px;
+            height: auto;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .flower-images img.left {
+            left: 0;
+        }
+
+        .flower-images img.right {
+            right: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Floral Bliss</h1>
+        <div class="search-tab">
+            <input type="text" placeholder="Search...">
+            <button type="button">Search</button>
+        </div>
+    </header>
+
+    <nav>
+        <a href="rita.html">Home</a>
+        <a href="shop by occasion.html">Shop by Occasion</a>
+        <a href="plant shop.html">Plant Shop</a>
+        <a href="About Us.html">About Us</a>
+        <a href="Contact Us.html">Contact Us</a>
+    </nav>
+
+    <main>
+        <div class="flower-images">
+        
+            <img src="images (3).jpg" alt="Right Flower" class="right">
+        </div>
+
+        <h2 class="large-text">FLORAL BLISS</h2>
+
+        <p>Flowers for all occasions. Bouquets, gifts, birthdays, weddings,</p>
+        <p>and funerals. We are passionate about flowers and we are here</p>
+        <p>to ensure that we create that special arrangement or</p>
+        <p>bouquet for that memorable occasion.</p>
+
+    </main>
+
+    <footer>
+        &copy; 2023 Floral Bliss
+    </footer>
+
+</body>
+</html>
